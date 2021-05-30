@@ -40,6 +40,7 @@ body {
 
 .logo-sun img {
   margin-right: 1rem;
+  filter: invert(1)  ;
 }
 
 .logo-sun label {
@@ -54,6 +55,8 @@ body {
 
 #nav-search img {
   margin-right: 1rem;
+  filter: invert(1)  ;
+
 }
 
 h1 {
@@ -127,6 +130,10 @@ h2 {
   margin-right: 20px;
   padding: 20px;
   margin-bottom: 10%;
+}
+
+.segment img {
+  filter: invert(30%) sepia(8%) saturate(3353%) hue-rotate(143deg) brightness(99%) contrast(92%);
 }
 
 #div-popular-tours {
@@ -248,9 +255,11 @@ h2 {
 }
 
 #mid-footer img {
-  background-color: rgb(0, 176, 207);
+  filter: invert(1);
   border-radius: 50%;
   padding: 0.5rem;
+  background-color: rgb(207, 76, 0);
+
 }
 
 #bottom-footer {
